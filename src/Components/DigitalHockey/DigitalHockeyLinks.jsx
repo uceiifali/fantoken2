@@ -1,7 +1,7 @@
 import React from 'react';
 const DigitalHockeyLinks = () => {
   return (
-    <div className="flex items-center justify-around  pt-6 w-96 md:w-full  gap-1 ">
+    <div className="flex items-center md:w-full  pt-6 w-96 gap-3 lg:gap-4 ">
       <div>
         <a
           href=""
