@@ -5,7 +5,7 @@ import Navbar from '@/Components/Navbar';
 // pages/index.js
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
       <DigitalHockey />
       <Footer />

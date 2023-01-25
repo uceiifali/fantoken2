@@ -5,7 +5,7 @@ import Time from './Time';
 
 const DigitalHockeyScore = () => {
   return (
-    <div className="w-full h-[101px] md:h-20 rounded-full mt-12 border border-blue outline-8 outline outline-bgDark flex items-center justify-center gap-4 ">
+    <div className="w-full h-[101px] md:h-20 rounded-full mt-12 border border-blue outline-8 outline outline-bgDark flex items-center justify-center gap-4 z-50">
       <div>
         <TeamOne />
       </div>

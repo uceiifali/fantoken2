@@ -3,10 +3,10 @@ import { IoInformationCircle } from 'react-icons/io5';
 const DigitalHockeyTitles = () => {
   return (
     <div>
-      <h1 className="font-bold text-4xl md:text-[52px] text-blue font-bouldBold uppercase">
+      <h1 className="font-bold text-4xl sm:text-[52px] text-blue font-bouldBold uppercase">
         Digital hockey
       </h1>
-      <p className="font-normal text-base md:text-lg  leading-5 text-secDark font-bouldReg mt-4 w-[70%] md:w-[100%]">
+      <p className="font-normal text-base sm:text-lg  leading-5 text-secDark font-bouldReg mt-4 w-[80%] md:w-[100%]">
         Here you can bet and score upgrades for your fan-token
       </p>
       <div className="bg-bgDark flex items-center gap-1 p-2  font-bouldReg rounded-2xl mt-3 ">
