@@ -7,7 +7,7 @@ const PeriodOneDetail = ({ Period, buttonBg, text, final }) => {
         {Period} Period{final}:
       </p>
       <p
-        className={` bg-${buttonBg} font-bold text-xs text-white w-20 h-7 rounded-full font-bouldBold flex items-center justify-center`}
+        className={`${buttonBg} font-bold text-xs text-white w-20 h-7 rounded-full font-bouldBold flex items-center justify-center`}
       >
         {text}
       </p>

@@ -6,7 +6,7 @@ const ScoreItem = ({ scorePlayer }) => {
       {scorePlayer.map((item, i) => (
         <div key={i} className="w-[90%]">
           <div
-            className={`flex items-center justify-between w-full h-14 bg-${item.bgColor} border rounded-full border-${item.borderColor} p-4`}
+            className={`flex items-center justify-between w-full h-14 ${item.bgColor} border rounded-full ${item.borderColor} p-4`}
           >
             <div className="flex items-center justify-center gap-4">
               <div className="w-[50px] h-[45px] bg-white rounded-full flex items-center justify-center">
@@ -17,7 +17,7 @@ const ScoreItem = ({ scorePlayer }) => {
               </p>
             </div>
             <div
-              className={`flex items-center justify-center rounded-full  w-20 h-7 bg-${item.color}`}
+              className={`flex items-center justify-center rounded-full  w-20 h-7 ${item.color}`}
             >
               <p className="font-bouldBold text-white text-xs">{item.status}</p>
             </div>

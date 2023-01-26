@@ -4,7 +4,7 @@ import PeriodTwoScore from './PeriodTwoScore';
 const PeriodOne = () => {
   return (
     <div>
-      <PeriodDetails Period={2} buttonBg={'green'} text={'Guessed'} />
+      <PeriodDetails Period={2} buttonBg={'bg-green'} text={'Guessed'} />
       <PeriodTwoScore />
     </div>
   );

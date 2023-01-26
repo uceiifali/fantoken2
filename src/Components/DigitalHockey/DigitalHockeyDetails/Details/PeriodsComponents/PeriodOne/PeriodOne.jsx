@@ -4,7 +4,7 @@ import PeriodDetails from '../../../../../../common/PeriodDetails';
 const PeriodOne = () => {
   return (
     <div>
-      <PeriodDetails Period={1} buttonBg={'red'} text={'Unguessed'} />
+      <PeriodDetails Period={1} buttonBg={'bg-red'} text={'Unguessed'} />
       <PeriodOneScore />
     </div>
   );

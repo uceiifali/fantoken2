@@ -13,6 +13,7 @@ module.exports = {
         green: '#129918',
         darkGreen: 'rgba(18,153,24,0.1)',
         gray: 'rgba(11,29,70,0.5)',
+        grayText: '#0B1D46',
       },
       fontFamily: {
         bouldBold: ['bouldBold'],

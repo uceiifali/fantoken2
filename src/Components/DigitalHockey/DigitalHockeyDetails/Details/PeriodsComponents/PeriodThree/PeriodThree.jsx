@@ -7,7 +7,7 @@ const PeriodThree = () => {
     <div>
       <PeriodDetails
         Period={3}
-        buttonBg={'gray'}
+        buttonBg={'bg-gray'}
         text={'Waiting'}
         final="(Final)"
       />

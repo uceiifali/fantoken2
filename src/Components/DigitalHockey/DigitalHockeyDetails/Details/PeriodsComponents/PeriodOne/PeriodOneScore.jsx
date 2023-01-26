@@ -8,15 +8,19 @@ const PeriodOneScore = () => {
       <div>
         <PeriodOneTeamOne
           ScoreNum={5}
-          BorderColor={'red'}
-          BGColor={'redDark'}
+          BorderColor={'border-red'}
+          BGColor={'bg-redDark'}
         />
       </div>
       <div>
         <p className="font-bouldBold text-blue text-base">VS</p>
       </div>
       <div>
-        <PeriodTeamTwo ScoreNum={0} BorderColor={'red'} BGColor={'redDark'} />
+        <PeriodTeamTwo
+          ScoreNum={0}
+          BorderColor={'border-red'}
+          BGColor={'bg-redDark'}
+        />
       </div>
     </div>
   );

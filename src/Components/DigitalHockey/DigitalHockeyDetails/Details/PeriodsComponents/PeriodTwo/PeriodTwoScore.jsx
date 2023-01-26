@@ -7,8 +7,8 @@ const PeriodTwoScore = () => {
       <div>
         <PeriodOneTeamOne
           ScoreNum={5}
-          BorderColor={'green'}
-          BGColor={'darkGreen'}
+          BorderColor={'border-green'}
+          BGColor={'bg-darkGreen'}
         />
       </div>
       <div>
@@ -17,8 +17,8 @@ const PeriodTwoScore = () => {
       <div>
         <PeriodTeamTwo
           ScoreNum={5}
-          BorderColor={'green'}
-          BGColor={'darkGreen'}
+          BorderColor={'border-green'}
+          BGColor={'bg-darkGreen'}
         />
       </div>
     </div>
