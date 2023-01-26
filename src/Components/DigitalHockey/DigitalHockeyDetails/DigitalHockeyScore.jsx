@@ -16,7 +16,9 @@ const DigitalHockeyScore = ({
   return (
     <>
       <div
-        className="w-full h-[101px]  rounded-full mt-12 border border-blue outline-8 outline outline-bgDark flex items-center justify-center gap-4 z-40 bg-white relative flex-col cursor-pointer sm:cursor-auto"
+        className={`w-full h-[101px]  rounded-full mt-12 border border-blue outline-8 outline outline-bgDark flex items-center justify-center gap-4 z-40 bg-white relative flex-col ${
+          upComingArrow && ' cursor-pointer'
+        } `}
         onClick={() => setActive(!active)}
       >
         <div className="flex items-center justify-center w-full">

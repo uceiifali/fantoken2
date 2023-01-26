@@ -31,8 +31,8 @@ const Bar = () => {
         </button>
         <button
           className={`${
-            active == 2
-              ? ' text-blue   bg-white rounded-full font-bold w-[96px] h-[31px]'
+            active == 3
+              ? ' text-blue  bg-white rounded-full font-bold w-[96px] h-[31px]'
               : 'text-white font-normal w-20'
           }   text-lg  flex items-center justify-center`}
           onClick={() => setActive(3)}
