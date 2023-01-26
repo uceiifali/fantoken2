@@ -1,7 +1,7 @@
 import React from 'react';
-import PeriodOne from './PeriodsComponents/PeriodOne/PeriodOne';
-import PeriodThree from './PeriodsComponents/PeriodThree/PeriodThree';
-import PeriodTwo from './PeriodsComponents/PeriodTwo/PeriodTwo';
+import PeriodOne from './PeriodOne/PeriodOne';
+import PeriodThree from './PeriodThree/PeriodThree';
+import PeriodTwo from './PeriodTwo/PeriodTwo';
 
 const Periods = () => {
   return (
