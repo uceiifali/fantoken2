@@ -4,7 +4,7 @@ import DigitalHockeyScore from '../DigitalHockeyDetails/DigitalHockeyScore';
 
 const LiveMatches = () => {
   return (
-    <div>
+    <div >
       <DigitalHockeyScore
         TeamOneScore={5}
         TeamTwoScore={0}

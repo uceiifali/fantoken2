@@ -2,7 +2,7 @@ import React from 'react';
 
 const PeriodOneDetail = ({ Period, buttonBg, text, final }) => {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between w-full px-6">
       <p className="font-normal lg:text-xl text-lg text-blue font-bouldReg">
         {Period} Period{final}:
       </p>
