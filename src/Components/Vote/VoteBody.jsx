@@ -4,7 +4,7 @@ import VoteBodyTitle from './VoteBodyTitle';
 
 const VoteBody = () => {
   return (
-    <div className="flex gap-12  items-start sm:items-center justify-evenly flex-col sm:flex-row w-full">
+    <div className="flex gap-12  items-center sm:items-center justify-evenly flex-col sm:flex-row w-full">
       <VoteBodyTitle />
       <VoteBodyForm />
     </div>
