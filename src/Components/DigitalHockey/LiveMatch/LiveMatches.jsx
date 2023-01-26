@@ -4,13 +4,12 @@ import DigitalHockeyScore from '../DigitalHockeyDetails/DigitalHockeyScore';
 
 const LiveMatches = () => {
   return (
-    <div >
+    <div className="flex items-center justify-center flex-col">
       <DigitalHockeyScore
         TeamOneScore={5}
         TeamTwoScore={0}
         time={[1, '2:50']}
         upComingArrow={false}
-
       />
       <DigitalHockeyDetailContainer />
     </div>

@@ -11,7 +11,7 @@ const PeriodTwoScore = () => {
           BGColor={'bg-darkGreen'}
         />
       </div>
-      <div>
+      <div className="flex items-center justify-center x-2">
         <p className="font-bouldBold text-blue text-base">VS</p>
       </div>
       <div>
