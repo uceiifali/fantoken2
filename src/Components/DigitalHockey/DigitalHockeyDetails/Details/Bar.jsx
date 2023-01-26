@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Periods from './PeriodsComponents/Periods';
 import Score from './Score/Score';
+import Winner from './Winner/Winner';
 
 const Bar = () => {
   const [active, setActive] = useState(0);
@@ -34,7 +35,7 @@ const Bar = () => {
               ? ' text-blue   bg-white rounded-full font-bold w-[96px] h-[31px]'
               : 'text-white font-normal w-20'
           }   text-lg  flex items-center justify-center`}
-          onClick={() => setActive(2)}
+          onClick={() => setActive(3)}
         >
           Winner
         </button>
@@ -42,11 +43,11 @@ const Bar = () => {
       <div className="mt-4 w-full" hidden={active !== 0}>
         <Periods />
       </div>
-      <div className="mt-4  w-full " hidden={active !== 1}>
+      <div className="mt-4  w-full pb-8 sm-pb-0 " hidden={active !== 1}>
         <Score />
       </div>
-      <div className="mt-4 w-full" hidden={active !== 2}>
-        <Periods />
+      <div className="mt-6 pb-8 sm:pb-0" hidden={active !== 3}>
+        <Winner />
       </div>
     </div>
   );
