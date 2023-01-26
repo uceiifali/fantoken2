@@ -38,3 +38,13 @@
     src: url('../font/Bould-Light.ttf');
   }
 }
+.players-scroll {
+  overflow: scroll;
+}
+.players-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.players-scroll::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #e4e7ec;
+}

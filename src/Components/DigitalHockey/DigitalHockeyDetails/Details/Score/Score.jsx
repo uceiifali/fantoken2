@@ -50,7 +50,7 @@ const Score = () => {
     },
   ];
   return (
-    <div className="flex pb-2 sm:pb-6 items-center  w-full max-h-52 flex-col gap-3 overflow-y-scroll ">
+    <div className="flex pb-2 sm:pb-6 items-center  w-full max-h-52 flex-col gap-3 overflow-y-scroll players-scroll  ">
       <ScoreItem scorePlayer={scorePlayer} />
     </div>
   );
