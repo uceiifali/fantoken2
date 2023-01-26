@@ -1,7 +1,7 @@
 import React from 'react';
 import TeamOneLogo from '../../../common/TeamOneLogo';
 
-const TeamOne = () => {
+const TeamOne = ({ TeamOneScore }) => {
   return (
     <div className="flex items-center justify-center gap-4 md:gap-3  ">
       <div className="flex items-center justify-center flex-col-reverse md:flex-row gap-1 md:gap-3 ">
@@ -10,7 +10,9 @@ const TeamOne = () => {
         </p>
         <TeamOneLogo />
       </div>
-      <p className="font-bold text-3xl text-blue font-bouldBold">5</p>
+      <p className="font-bold text-3xl text-blue font-bouldBold">
+        {TeamOneScore}
+      </p>
     </div>
   );
 };
