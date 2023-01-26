@@ -27,7 +27,7 @@ const Score = () => {
       name: 'Yanik Burren',
       color: 'gray',
       bgColor: 'white',
-      borderColor: 'white',
+      borderColor: 'gray',
       status: 'Waiting',
     },
     {
@@ -36,7 +36,7 @@ const Score = () => {
       name: 'Yanik Burren',
       color: 'gray',
       bgColor: 'white',
-      borderColor: 'white',
+      borderColor: 'gray',
       status: 'Waiting',
     },
     {
@@ -45,7 +45,7 @@ const Score = () => {
       name: 'Yanik Burren',
       color: 'gray',
       bgColor: 'white',
-      borderColor: 'white',
+      borderColor: 'gray',
       status: 'Waiting',
     },
     {
@@ -54,12 +54,12 @@ const Score = () => {
       name: 'Yanik Burren',
       color: 'gray',
       bgColor: 'white',
-      borderColor: 'white',
+      borderColor: 'gray',
       status: 'Waiting',
     },
   ];
   return (
-    <div className="flex items-center  w-full max-h-52 flex-col gap-3 overflow-y-scroll ">
+    <div className="flex pb-2 sm:pb-6 items-center  w-full max-h-52 flex-col gap-3 overflow-y-scroll ">
       <ScoreItem scorePlayer={scorePlayer} />
     </div>
   );

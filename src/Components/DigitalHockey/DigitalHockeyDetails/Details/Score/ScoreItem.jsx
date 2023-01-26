@@ -4,9 +4,9 @@ const ScoreItem = ({ scorePlayer }) => {
   return (
     <>
       {scorePlayer.map((item, i) => (
-        <div key={i} className="w-[90%] ">
+        <div key={i} className="w-[90%]">
           <div
-            className={`flex items-center justify-between w-full h-[60px] bg-${item.bgColor} border rounded-full border-${item.borderColor} p-4`}
+            className={`flex items-center justify-between w-full h-14 bg-${item.bgColor} border rounded-full border-${item.borderColor} p-4`}
           >
             <div className="flex items-center justify-center gap-4">
               <div className="w-[50px] h-[45px] bg-white rounded-full flex items-center justify-center">
